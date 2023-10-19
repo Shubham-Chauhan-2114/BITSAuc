@@ -5,73 +5,72 @@
     --color4: #310B0B;
 }
 body {
-    margin: 0;
+    display: flex;
+    flex-direction: row;
     padding: 0;
-    /* overflow: hidden; */
+    margin: 0;
     font-family: 'Gill Sans',sans-serif;
+    font-size: 100px;
 }
-
-.pane {
-    width: 50%;
-    height: 100vh;
-    float: left;
-    box-sizing: border-box;
-}
-
 .description {
     background-color: var(--color4);
     align-items: center;
     justify-content: center;
+    width: 50%;
+    display: flex;
     
 }
 
-.login {
+.login1 {
     background-color: var(--color1);
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
+    justify-content: center;
 }
 
 .description p{
     color: var(--color2);
-    padding-top: 30vh;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: auto;
-    height: auto;
     vertical-align: middle;
     text-align: center;
     font-size: 225%;
+    padding-left: 10%;
+    padding-right: 10%;
     
 }
 
 .logo{
-    width: 20vb;
-    margin-top: 5vh;
+    width: 20%;
+    margin-top: 5%;
 }
 
-.login h1{
-    margin-top: 5vh;
-    font-size: 45px;
+.login1 h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 250%;
     color: var(--color3);
     
 }
 
-.login h2{
-    font-size: 25px;
+.login1 h2{
+    font-size: 200%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     color: var(--color3);
     
 }
 
-.login .login-google{
-    width: 20vb;
-    height: 5%;
+.login1 .login-google{
+    width: 40%;
+    height: 7%;
     border: none;
     border-radius: 20px/20px;
     background-color: "white";
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 150%;
 }
+
 
 
 
